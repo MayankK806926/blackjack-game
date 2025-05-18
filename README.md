@@ -8,7 +8,6 @@ A lightweight, terminal-based Blackjack (21) game implemented in C++ that follow
 - [Installation](#-installation)
 - [Game Rules](#-game-rules)
 - [Project Structure](#-project-structure)
-- [Future Improvements](#-future-improvements)
 
 ## ✨ Features
 - **Multiplayer support**: Play with any number of players against the dealer
@@ -46,3 +45,29 @@ Dealer hits: 6
 
 Results:
 Player 1: winner (14 vs 18)
+```
+
+## ⚙️ Installation <a name="-installation"></a>
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/blackjack-simulator.git
+   cd blackjack-simulator
+   ```
+3. Complie and run:
+   ```
+   g++ src/blackjack.cpp -o blackjack && ./blackjack
+   ```
+
+## 📜 Game Rules <a name="-game-rules"></a>
+Rule	       | Description
+Dealer       | Behavior	Must hit on ≤16, stand on ≥17
+Winning      | Condition	Beat dealer's score without busting
+Bust	       | Automatic loss if score > 21
+Card Values	 | A=1, J/Q/K=10, others=face value
+
+## 🗂️ Project Structure <a name="-project-structure"></a>
+blackjack-simulator/
+├── src/
+│   └── blackjack.cpp    # Main game logic
+├── README.md            # Documentation
+└── LICENSE              # MIT License
