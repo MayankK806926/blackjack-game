@@ -60,11 +60,11 @@ Player 1: winner (14 vs 18)
 
 ## 📜 Game Rules <a name="-game-rules"></a>
 ```
-Rule	       | Description
+Rule	     | Description
 Dealer       | Behavior	Must hit on ≤16, stand on ≥17
 Winning      | Condition	Beat dealer's score without busting
-Bust	       | Automatic loss if score > 21
-Card Values	 | A=1, J/Q/K=10, others=face value
+Bust	     | Automatic loss if score > 21
+Card Values| A=1, J/Q/K=10, others=face value
 ```
 
 ## 🗂️ Project Structure <a name="-project-structure"></a>
